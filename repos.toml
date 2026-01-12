@@ -1,0 +1,42 @@
+version = 1
+root = "vendors"
+
+[[repo]]
+name = "codex"
+path = "vendors/codex"
+url = "org-14957082@github.com:openai/codex.git"
+
+[[repo]]
+name = "django"
+path = "vendors/django"
+url = "git@github.com:django/django.git"
+
+[[repo]]
+name = "fastapi"
+path = "vendors/fastapi"
+url = "git@github.com:fastapi/fastapi.git"
+
+[[repo]]
+name = "flask"
+path = "vendors/flask"
+url = "git@github.com:pallets/flask.git"
+
+[[repo]]
+name = "gemini-cli"
+path = "vendors/gemini-cli"
+url = "git@github.com:google-gemini/gemini-cli.git"
+
+[[repo]]
+name = "opencode"
+path = "vendors/opencode"
+url = "git@github.com:anomalyco/opencode.git"
+
+[[repo]]
+name = "superpowers"
+path = "vendors/superpowers"
+url = "git@github.com:obra/superpowers.git"
+
+[[repo]]
+name = "system-design-primer"
+path = "vendors/system-design-primer"
+url = "git@github.com:donnemartin/system-design-primer.git"
