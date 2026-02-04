@@ -4,8 +4,8 @@
 
 ## 核心原则
 
-- 如果是研究 【repo】使用 skill
-- 如果是研究【核心模块】使用  skill
+- 如果是研究【repo】使用 `github-repo-analyzer` skill
+- 如果是研究【核心模块】使用 `github-module-analyzer` skill
 
 ## 目录结构
 
