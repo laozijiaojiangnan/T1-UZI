@@ -39,4 +39,4 @@ description: 使用第一性原理深度分析 GitHub 开源仓库的架构设�
 - **拒绝教科书式的定义**，使用开发者日常交流的通俗语言。
 - **拒绝堆砌代码**，此阶段不需要具体代码实现，关注模块间的关系。
 - 确保逻辑闭环：让我看完后，能明白“为什么它要分这么多模块”。
-- 文档输出地址: /research/{库名称}/{库名称}_{Anthropic Base URL 域名}.md。例如当 Base URL 为 `https://co.yes.vg` 时，输出 `/research/dify/dify_co.yes.vg.md`。
+- 文档输出地址: /research/{库名称}/{库名称}_{ANTHROPIC_BASE_URL}.md ANTHROPIC_BASE_URL 请访问环境变量获取，注意截取掉协议，只留下纯域名。
