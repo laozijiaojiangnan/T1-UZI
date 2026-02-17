@@ -44,3 +44,4 @@ description: 深入分析开源仓库核心模块的内部实现机制与设计�
 - **禁止**直接复制粘贴大段原始代码。
 - **必须**使用通俗易懂的逻辑说明，避免堆砌专业术语。
 - **重点**在于“为什么这么写”，而不仅仅是“代码是什么”。
+- **输出格式**: /research/{库名称}/{库名称}_{模块名}_{Anthropic Base URL 域名}.md。例如当 Base URL 为 `https://co.yes.vg` 时，输出 `/research/dify/dify_{模块名}_co.yes.vg.md`。
