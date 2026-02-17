@@ -13,9 +13,15 @@ description: 更新所有 vendors/ 目录下的第三方库，自动切换到代
 proxy && bash /Users/jiangnan/Desktop/T1-UZI/update-repos.sh 2>&1
 ```
 
-## 2. 等待脚本执行完成
+## 2. 等待脚本执行完成并取消代理
 
 脚本会遍历 vendors/ 目录下的所有 git 仓库，对每个仓库执行 `git pull --ff-only`。
+
+更新完成后取消代理：
+
+```bash
+unproxy
+```
 
 ## 3. 总结更新结果
 

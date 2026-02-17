@@ -43,6 +43,7 @@ fi
 ```bash
 proxy
 git remote -v
+unproxy
 ```
 
 ## 示例
